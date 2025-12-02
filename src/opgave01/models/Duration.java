@@ -5,3 +5,4 @@ public enum Duration {
     ONEMINUTE,
     ONEROUND
 }
+
