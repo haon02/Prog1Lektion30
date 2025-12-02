@@ -18,5 +18,16 @@ public class Main {
         ArrayList<Spell> initialSpell = new ArrayList<>();
         Wizard wizard = new Wizard("Orlemaex" ,11, initialSpell);
         Spell fireball = new Spell(150, Duration.INSTANTANEOUS);
+        wizard.addSpell(fireball);
+
+        // Prints
+        System.out.println("BARBARIAN INFORMATION");
+        System.out.println(barbarian);
+        System.out.println(longsword);
+        System.out.println(shortbow);
+        System.out.println("WIZARD INFORMATION");
+        System.out.println(wizard);
+        System.out.println(fireball);
+
     }
 }

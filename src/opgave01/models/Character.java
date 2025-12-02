@@ -9,4 +9,10 @@ public class Character {
         this.level = level;
     }
 
+    @Override
+    public String toString() {
+        return "Character: " +
+                "name = " + name  +
+                ", level = " + level;
+    }
 }

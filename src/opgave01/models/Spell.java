@@ -29,4 +29,11 @@ public class Spell {
             spellcaster.removeSpell(this);
         }
     }
+
+    @Override
+    public String toString() {
+        return "Spell: " +
+                "range = " + range + "ft" +
+                ", duration = " + duration;
+    }
 }

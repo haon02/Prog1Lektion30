@@ -7,4 +7,9 @@ public class Ranged extends Weapon {
         super(name);
         Ranged = ranged;
     }
+
+    @Override
+    public String toString() {
+        return "Ranged Weapon: " + super.getName() + ", Range = " + Ranged + "ft";
+    }
 }

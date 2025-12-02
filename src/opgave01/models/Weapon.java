@@ -7,4 +7,13 @@ public class Weapon {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return "Weapon: " +
+                "name = " + name ;
+    }
+
+    protected String getName() {
+        return name;
+    }
 }
